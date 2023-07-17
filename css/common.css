@@ -1,0 +1,95 @@
+main>.about_page.container{
+    text-align:center;
+    padding:154px 0 135px;
+}
+
+main>section.board_wrap{
+    padding:162px 0 135px;
+    font-size:14px;
+}
+
+/*----------- paging ------------*/
+div.paging{
+    font-size:14px;
+}
+
+div.paging p{
+    width:27px;
+    height:27px;
+    display:inline-block;
+    margin:51px auto;
+}
+
+div.paging .on{
+    background:#BD7070;
+    border-radius:5px;
+}
+
+div.paging .on>a{
+    color:#fff;
+    display:block;
+}
+
+/* button */
+/* 문의하기 */
+.ask_form_wrap .ask_button button{
+    width:90px;
+    line-height:27px;
+    margin:0 10px;
+    border:solid 1px #999;
+    cursor: pointer;
+    transition:opacity 0.3s ease-out;
+}
+
+.ask_form_wrap .ask_button button:first-of-type:hover{
+    background:#AC0B3D;
+    color:#fff;
+    border:1px solid #AC0B3D;
+}
+
+/* 검색버튼 */
+form div.search_text>button,
+.qna_wrap .qna_text>button{
+    background:#BD7070;
+    width:80px; height:35px;
+    float:left;
+    color:#fff;
+    cursor:pointer;
+    transition:opacity 0.3s ease-out;
+}
+
+form div.search_text>button:hover,
+.qna_wrap .qna_text>button:hover{
+    background:#AC0B3D;
+}
+
+/*취소버튼 hover*/
+.ask_form_wrap .ask_button button:last-of-type:hover{
+    background:#999;
+    color:#fff;
+}
+
+/* go_top */
+a.go_top{
+    font-size:45px;
+    opacity:.7;
+    position:fixed;
+    right:40px; bottom:5%;
+    opacity:0;
+    transition:opacity 0.5s ease-out;
+    visibility:hidden;
+    z-index:100;
+}
+
+a.go_top i:hover{
+    color:#BD7070;
+}
+
+a.go_top.go_top_active{
+    opacity:1;
+    visibility:visible;
+}
+
+.no_sub{
+    color:#ccc;
+}

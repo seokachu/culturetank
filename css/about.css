@@ -1,0 +1,597 @@
+@import url(board.css);
+
+/* 문화비축기지란 */
+.about_page>h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#AC0B3D;
+    line-height:54px;
+}
+
+.about_page>h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+}
+
+.about_page .about_page_wrap{
+    padding:108px 80px;
+    margin:0 auto;
+}
+
+.about_page .about_page_wrap>img{
+    float:left;
+}
+
+.about_page .about_page_wrap .about_page_history{
+    float:left;
+    width:473px;
+    text-align:left;
+    font-size:14px;
+    margin-left:45px;
+}
+
+.about_page .about_page_wrap .about_page_history>h4{
+    font-size:24px;
+    display:inline-block;
+    text-transform:uppercase;
+    border-bottom:solid 3px #BD7070;
+    line-height:54px;
+    box-sizing:border-box;
+    margin-bottom:27px;
+}
+
+.about_page .about_page_wrap:after{
+    content:'';
+    background:url(../images/about_page_history_2.png) no-repeat;
+    width:600px; height:89px;
+    margin:81px 0 auto;
+    display:inline-block;
+}
+
+
+.about_page .about_page_history_txt>h4{
+    font-size:24px;
+    line-height:54px;
+    margin-bottom:27px;
+}
+
+.about_page .about_page_history_txt>h4>span{
+    color:#AC0B3D;
+}
+
+.about_page .about_page_history_txt i{
+    font-size:36px;
+    color:#BD7070;
+    margin:35px 0;
+}
+
+
+.about_page .about_page_history_txt>p:last-of-type{
+    width:573px; height:162px;
+    background:#BD7070;
+    margin:0 auto;
+    color:#fff;
+    border-radius:162px;
+    padding-top:27px;
+    box-sizing:border-box;
+}
+
+/*---------- 공원안내 ---------*/
+ul.info_list{
+    padding:108px 0 0 0;
+}
+
+ul.info_list li{
+    float:left;
+    margin: 0 20px 108px 0;
+    width:380px;
+    position:relative;
+}
+
+ul.info_list li:nth-child(3n){
+    margin-right:0;
+}
+
+ul.info_list li:last-child{
+    margin-bottom:0;
+}
+
+ul.info_list li>h4{
+    font-size:18px;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+ul.info_list>li>h4:after{
+    content:'';
+    width:90px; height:3px;
+    background:#BD7070;
+    margin:10px auto;
+    display:block;
+    box-sizing:border-box;
+}
+
+ul.info_list li img{
+    width:300px;
+}
+
+
+ul.info_list li>h5{
+    color:#BD7070;
+    margin:20px 0 10px 0;
+}
+
+ul.info_list li>p{
+    font-size:14px;
+}
+
+/* ----------- 오시는길 ---------- */
+
+div#map{
+    height:405px;
+}
+
+main>.about_page.container.direction_title{
+    padding:154px 0 108px;
+}
+
+main>.about_page.container.parking{
+    padding:81px 0 135px;
+}
+
+
+div.parking_guide>h4,div.public_traffic>h4{
+    font-size:24px;
+    display:inline-block;
+    border-bottom:solid 3px #BD7070;
+    line-height:54px;
+    box-sizing:border-box;
+    float:left;
+}
+
+div.parking_guide>i,div.public_traffic>i{
+    font-size:28px;
+    margin:15px 15px 0 0;
+    float:left;
+    color:#BD7070;
+}
+
+.parking_wrapper{
+    padding-top:27px;
+    clear:both;
+}
+
+.parking_guide dl{
+    display:table;
+    border:1px solid #ccc;
+    width:780px;
+    border-spacing:0;
+}
+
+.parking_wrapper dl{
+    border-bottom:none;
+}
+
+.parking_wrapper dl:last-child{
+    border-bottom:1px solid #ccc;
+}
+
+
+.parking_wrapper dt{
+    display:table-cell;
+    background:#eee;
+    width:100px;
+    text-align:center;
+    padding:15px 0;
+    border-right:1px solid #ccc;
+}
+
+.parking_wrapper dd{
+    padding:0 20px;
+    text-align:left;
+}
+
+.parking_wrapper dl:last-child>dd:last-child{
+    padding-bottom:20px;
+}
+
+.parking_guide em{
+    padding:10px 0 81px 10px;
+    display:block;
+    text-align:left;
+}
+
+.subway_guide>h5,.bus_guide>h5{
+    font-size:18px;
+    text-align:left;
+    margin:20px 5px;
+}
+
+.subway_guide{
+    clear:both;
+    text-align:left;
+    padding:27px 0;
+}
+
+.subway_guide .subway_wrap{
+    padding-top:20px;
+}
+
+
+.subway_guide .subway_wrap img{
+    float:left;
+}
+
+.subway_guide .subway_wrap .subway_txt{
+    padding:30px 40px;
+    position:relative;
+    float:left;
+    position:relative;
+    line-height:30px;
+}
+
+.bus_guide table th{
+    border:solid 1px #ccc;
+    background:#eee;
+    padding:10px;
+}
+
+.bus_guide table td{
+    border:solid 1px #ccc;
+    padding:10px 20px;
+}
+
+.bus_guide table td.blue{
+    color:#344cff;
+}
+
+.bus_guide table td.green{
+    color:#00b021;
+}
+
+.bus_guide table td.red{
+    color:#ff0012;
+}
+
+.bus_guide{
+    position:relative;
+}
+
+.bus_guide:after{
+    content:'';
+    width:443px; height:275px;
+    background:url(../images/directions.png) no-repeat;
+    position:absolute;
+    right:0; top:75px;
+}
+
+/* 이용안내 */
+
+.park_gudie_list{
+    display:inline-block;
+    padding-top:108px;
+}
+
+.park_gudie_list li{
+    width:280px; height:54px;
+    background:#f4f4f4;
+    float:left;
+    line-height:54px;
+    font-size:18px;
+    box-sizing:border-box;
+}   
+
+.park_gudie_list li>a{
+    color:#333;
+    display:block;
+}
+
+.park_gudie_list li:hover>a{
+    color:#BD7070;
+}
+
+.park_gudie_list li .active{
+   background:#fff;
+   border-top:solid 3px #BD7070;
+   box-sizing: border-box;
+}
+
+.park_gudie_list li .active{
+    color:#BD7070;
+}
+
+.tab_container{
+    padding:50px 100px;
+    text-align:left;
+}
+
+.tab_list>h4{
+    color:#BD7070;
+}
+
+.tab_list>h4>em{
+    color:#ff0012;
+}
+
+.tab_contents .section_list .tab_list i{
+    position:absolute;
+    left:0; top:50%; transform:translateY(-50%);
+    font-size:36px;
+    width:81px; height:81px;
+    text-align:center;
+    line-height:81px;
+    color:#BD7070;
+    background:#eee;
+    border-radius:50%;
+}
+
+.tab_contents ul li .tab_list{
+    padding:30px 111px;
+    position:relative;
+}
+
+.section_list{
+    padding:30px 0;
+}
+
+.section_list h3{
+    font-size:18px;
+    color:#BD7070;
+    padding:10px 0;
+}
+
+.section_list>ul>li>h4{
+    padding:10px 5px;
+    font-weight:700;
+}
+
+.section_list>ul>li>p,
+.section_list>ul>li{
+    padding:5px;
+}
+
+.section_list>ul>.section_txt{
+    margin-top:30px;
+}
+
+
+.tab_container .tab_contents{
+    display:none;
+}
+
+.tab_container .tab_contents.active{
+    display:block;
+}
+
+
+
+/* 행사소식 */
+
+.event_guide_wrap,.park_terrace_wrap{
+    padding:108px 0 0 0;
+}
+
+.event_guide_wrap .event_guide{
+    border-top:solid 1px #333;
+    border-bottom:solid 1px #333;
+    box-sizing: border-box;
+}
+
+.event_guide_wrap .event_guide li{
+    border-bottom:solid 1px #ccc;
+    box-sizing: border-box;
+    padding:50px 0;
+}
+
+.event_guide_wrap .event_guide li:last-child{
+    border-bottom:none;
+}
+
+.event_guide_wrap .event_guide li a{
+    display:inline-block;
+    vertical-align:top;
+    width:300px;
+    height:216px;
+}
+
+
+.event_guide_wrap .event_guide li .event_content_txt{
+    display:inline-block;
+    margin:40px 0 40px 100px;
+    text-align:left;
+    cursor: pointer;
+}
+
+.event_guide_wrap .event_guide li .event_content_txt>h4{
+    font-size:18px;
+    color:#BD7070;
+    display:inline-block;
+    margin-right:10px;
+}
+
+.event_guide_wrap .event_guide li .event_content_txt>span{
+    padding:1px 10px;
+    background:#AC0B3D;
+    color:#fff;
+    border-radius:8px;
+    font-size:13px;
+    vertical-align:top;
+}
+
+.event_guide_wrap .event_guide li .event_content_txt>span.event_guide_close{
+    background:#999;
+}
+
+.event_guide_wrap .event_guide li .event_content_txt .event_date{
+    padding-bottom:30px;
+    font-size:14px;
+}
+
+.event_guide_wrap .event_guide li.event_content_close>a{
+    position:relative;
+}
+
+.event_guide_wrap .event_guide li.event_content_close>a:before{
+    content:'';
+    background:rgba(0,0,0,.7);
+    position:absolute; 
+    left:0; 
+    top:0; 
+    bottom:0; 
+    right:0;    
+}
+
+
+/* 공원전경 */
+.park_terrace li{
+    width:380px;
+    float:left;
+    margin-right:20px;
+    box-sizing: border-box;
+    margin-bottom:108px;
+    cursor:pointer;
+}
+
+.park_terrace li:nth-child(3n){
+    margin-right:0;
+}
+
+.park_terrace li:nth-child(3n)~li{
+    margin-bottom:0;
+}
+
+
+.park_terrace li>h4{
+    padding:20px 0;
+    font-size:16px;
+    border:solid 1px #ccc;
+    box-sizing: border-box;
+    transition:opacity 0.5s ease-out;
+}
+
+.park_terrace li .terrace_img_wrap{
+    position:relative;
+    overflow:hidden;
+}
+
+.park_terrace li .terrace_img_wrap:before{
+    content:'';
+    position:absolute;
+    top:0; bottom:0; right:0; left:0;
+    background:rgba(0,0,0,.7);
+    opacity:0;
+    transition:opacity 0.5s ease-out;
+}
+
+.park_terrace li .terrace_img_wrap a{
+    position:absolute; left:50%; top:50%;
+    transform:translate(-50%,-50%);
+    font-size:36px;
+    color:rgba(255,255,255,.8);
+    opacity:0;
+    transition:opacity 0.5s ease-out;
+}
+
+.park_terrace li:hover .terrace_img_wrap:before,
+.park_terrace li:hover .terrace_img_wrap a{
+    opacity:1;
+    z-index:1;
+}
+
+.park_terrace li:hover h4{
+    color:#fff;
+    background:#BD7070;
+    border:1px solid #BD7070;
+}
+
+.park_terrace li .terrace_img_wrap img{
+    transition:0.5s ease-out;
+}
+
+.park_terrace li:hover .terrace_img_wrap img{
+    transform:scale(1.1,1.1);
+}
+
+/*light box*/
+#lightbox_overlay{
+    opacity:0;
+    pointer-events:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0; left:0; bottom:0; right:0;
+    background-color:rgba(0,0,0,.9);
+    transition:opacity .3s ease-out;
+    z-index:2;
+}
+
+#lightbox_image{
+    position:absolute;
+    left:50%; top:50%;
+    transform:translate(-50%,-50%);
+    /* background:url('../images/loading.gif') 50% 50% no-repeat; */
+    text-indent:-9999em;
+    width:900px;
+    height:675px;
+    cursor:pointer;
+}
+
+#lightbox_overlay.visible{
+    opacity:1;
+    pointer-events:auto;
+}
+
+/* 리플렛 다운로드 */
+main>.about_page.container.park_leaflet_title{
+    padding:154px 0 27px;
+}
+
+main>.about_page.container.park_leaflet_title h3{
+    padding-bottom:108px;
+}
+
+.about_page.park_leaflet.container{
+    padding:0 0 135px;
+}
+
+.park_leaflet .park_leaflet_list ul{
+    padding:27px 0;
+    display:inline-block;
+    text-align:center;
+}
+
+.park_leaflet .park_leaflet_list ul li{
+    font-size:16px;
+    display:inline-block;
+    background:#eee;
+    text-align:center;
+    line-height:54px;
+    border-radius:25px;
+    padding:0 30px;
+    margin-right:20px;
+    transition:opacity 0.3s ease-out;
+}
+
+.park_leaflet .park_leaflet_list ul li:last-child{
+    margin-right:0;
+}
+
+.park_leaflet .park_leaflet_list ul li a{
+    color:#333;
+    display:block;
+}
+
+.park_leaflet .park_leaflet_list ul li a i{
+    font-size:24px;
+    margin-left:10px;
+    color:#999;
+}
+
+.park_leaflet .park_leaflet_list ul li:hover{
+    background:#BD7070;
+}
+
+.park_leaflet .park_leaflet_list ul li:hover a,
+.park_leaflet .park_leaflet_list ul li:hover a i{
+    color:#fff;
+}
+

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>문화비축기지</title>
+    
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- ogp -->
+        <meta property="og:title" content="문화비축기지 Portfolio" />
+        <meta property="og:description" content="ParkSeoyoung_portfolio 문화비축기지 리뉴얼" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://staybomi.dothome.co.kr/portfolio1/" />
+        <meta property="og:image" content="http://staybomi.dothome.co.kr/portfolio1/images/visual_3.png" />
+           
+         <!-- main css -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/about.css">
+        <script defer src="js/search.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container cf">
+			<h1 class="logo"><a href="index.html">문화비축기지</a></h1>
+			<nav>
+				<ul class="main_menu">
+					<li><a href="">공원소개</a>
+						<ul class="sub_menu">
+							<li><a href="about.html">문화비축기지란</a></li>
+							<li><a href="info.html">공원안내</a></li>
+							<li><a href="directions.html">오시는길</a></li>
+						</ul>
+					</li>
+					<li><a href="">공원소식</a>
+						<ul class="sub_menu">
+							<li><a href="park_guide.html">이용안내</a></li>
+							<li><a href="event_guide.html">행사소식</a></li>
+						</ul>
+					</li>
+					<li><a href="">알림마당</a>
+						<ul class="sub_menu">
+							<li><a href="board.html">공지사항</a></li>
+							<li class="no_sub">뉴스레터</li>
+							<li><a href="qna.html">자주하는질문</a></li>
+							<li><a href="ask.html">문의하기</a></li>
+						</ul>
+					</li> 
+					<li><a href="">자료실</a>
+						<ul class="sub_menu">
+							<li><a href="leaflet.html">리플렛</a></li>
+							<li><a href="park_terrace.html">공원전경</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="search_menu cf">
+				<a href="" class="search_click"><img src="images/search.png" alt="search"></a>
+				<div class="lang">
+					<button type="button" class="lang_on">Korean</button>
+					<ul class="lang_list">
+						<li><a href="">English</a></li>
+						<li><a href="">Japan</a></li>
+						<li><a href="">Chinese</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header><!-- header -->
+	<section class="search_wrapper">
+		<h2 class="hidden">search</h2>
+			<form class="search_form" method="get">
+				<div class="search_txt cf">
+					<input type="text" placeholder="검색어를 입력하세요.">
+					<input type="image" src="images/big_search.png" alt="search">
+				</div>
+				<button type="button" class="search_close"><i class="far fa-window-close"></i></button>
+			</form>
+	</section><!-- full search bar -->
+	<main>
+		<section class="about_page direction_title container">
+            <h2>오시는 길</h2>
+            <h3>주소 : 서울 마포구 증산로 87</h3>
+        </section>
+        <div id="map"></div>
+        <section class="about_page parking container">
+            <div class="parking_guide cf">
+                <i class="fas fa-parking"></i>
+                <h4>주차안내</h4>
+                <div class="parking_wrapper cf">
+                    <dl>
+                        <dt>운영시간</dt>
+                        <dd>24시간, 주차요금 과금시간 9:00~22:00 (연중무휴)</dd>
+                    </dl>
+                    <dl>
+                        <dt>주차면수</dt>
+                        <dd>총42면 (장애인전용 2면, 임산부전용 1면, 여성우선 4면, 전기차전용(충전시설 포함) 1면 포함</dd>
+                    </dl>
+                    <dl>
+                        <dt>주차요금</dt>
+                        <dd>승용차 : 5분당 150원, 중형차(11인승) : 5분당 300원</dd>
+                    </dl>
+                    <dl>
+                        <dt>할인대상</dt>
+                        <dd>장애인 및 국가유공자 : 80%할인</dd>
+                        <dd>경형차 및 저공해차 : 50%할인</dd>
+                        <dd>다둥이(두자녀)차량 : 30%할인</dd>
+                        <dd>다둥이(세자녀)차량 : 50% 할인</dd>
+                    </dl>
+                </div>
+                <em>※ 주차공간 협소 및 주말교통 혼잡으로 인하여 대중교통 이용 바랍니다.</em>
+            </div>
+            <div class="public_traffic">
+                <i class="fas fa-bus"></i>
+                <h4>대중교통 이용시</h4>
+                <div class="subway_guide">
+                    <h5>&ndash; 지하철</h5>
+                    <div class="subway_wrap cf">
+                        <img src="images/subway.jpg" alt="subway_guide">
+                        <div class="subway_txt">
+                            <p>후문방향으로 약 500m (약 7분) 산책로 통해 문화비축기지로 이동</p>
+                            <p>정문 방향으로 약 800m (약10분) 월드컵경기장 사거리 횡단보도를 통해 문화비축기지로 이동</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bus_guide">
+                    <h5>&ndash; 버스</h5>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>버스번호</th>
+                                <th>버스유형</th>
+                                <th>기점 &harr; 종점</th>
+                                <th>하차정류소</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="blue">710</td>
+                                <td class="blue">간선</td>
+                                <td>상암차고지 &harr; 수유역,강북구청</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                            <tr>
+                                <td class="blue">571</td>
+                                <td class="blue">간선</td>
+                                <td>가산동 &harr; 진관공영차고지</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                            <tr>
+                                <td class="green">6715</td>
+                                <td class="green">지선</td>
+                                <td>신월동 &harr; 상암동</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                            <tr>
+                                <td class="green">7019</td>
+                                <td class="green">지선</td>
+                                <td>은평차고지 &harr; 서소문</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                            <tr>
+                                <td class="green">7715</td>
+                                <td class="green">지선</td>
+                                <td>은평차고지 &harr; 연신내역</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                            <tr>
+                                <td class="red">9711</td>
+                                <td class="red">광역</td>
+                                <td>킨텍스제2전시장 &harr; 양재동</td>
+                                <td>월드컵경기장서측.문화비축기지</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+	</main>
+	<footer>
+		<div class="container cf">
+			<h2 class="logo">footer_logo</h2>
+			<div class="fnb_list">
+				<ul>
+					<li><a href="">개인정보처리방침</a></li>
+					<li><a href="">저작권정책</a></li>
+					<li><a href="">영상정보처리기기 운영관리방침</a></li>
+					<li><a href="">홈페이지 바로잡기</a></li>
+					<li><a href="">행정 서비스 현장</a></li>
+				</ul>
+				<address>
+					<p>04514 서울특별시 중구 서소문로 124 씨티스퀘어 8층</p>
+					<p>다산콜센터 02)120</p>
+					<p>COPYRIGHT &copy;2014 SEOUL METROPOLITAN GOVERNMENT. ALL RIGHTS RESERVED.</p>
+				</address>
+			</div>
+			<div class="socials">
+				<ul class="cf">
+					<li><a href="https://www.instagram.com/culturetank/" target="_blank">instagram</a></li>
+					<li><a href="https://blog.naver.com/culturetank" target="_blank">naver_blog</a></li>
+					<li><a href="https://www.youtube.com/channel/UCMw5HYRHtul48A-sSA5UDzw" target="_blank">youtube</a></li>
+					<li><a href="https://www.facebook.com/culturetank/" target="_blank">facebook</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer><!-- footer -->
+	<a href="" class="go_top"><i class="fas fa-chevron-circle-up"></i></a>
+    
+   <!-- 지도 스크립트 -->
+   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4304a4039bd34f606f2611ff60015364"></script>
+
+   <script>
+   var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+       mapOption = { 
+           center: new kakao.maps.LatLng(37.57120372279205, 126.89413199786058), // 지도의 중심좌표
+           level: 3, // 지도의 확대 레벨
+           draggable: false
+       };
+   
+   var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+    // 마커가 표시될 위치입니다 
+    var markerPosition  = new kakao.maps.LatLng(37.57120372279205, 126.89413199786058); 
+
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+        position: markerPosition
+    });
+
+    // 마커가 지도 위에 표시되도록 설정합니다
+    marker.setMap(map);
+
+    // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
+    // marker.setMap(null);   
+
+    // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+    var mapTypeControl = new kakao.maps.MapTypeControl();
+
+    // 지도에 컨트롤을 추가해야 지도위에 표시됩니다
+    // kakao.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위를 의미합니다
+    map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+
+    // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+    var zoomControl = new kakao.maps.ZoomControl();
+    map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+   </script>
+</body>
+</html>
